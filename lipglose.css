@@ -1,0 +1,433 @@
+ 
+ #logo{
+    height: 90px;
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 250px;
+}
+
+.navbar{
+    background-color: #EAE4DD;  
+    position: fixed;
+    width: 100%;  
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 25px;
+    margin: 23px;
+    padding: 7px;  
+}
+.navbar-nav{
+    margin-right: 38px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #2f3232;
+    color: #000;
+}
+
+#dropimg{
+    height: 135px;
+    width: 200px;
+}
+#dropimg1{
+    height: 135px;
+    width: 200px;
+}
+ul#face.dropdown-menu.dropdown-menu-dark{
+    margin: 0px;
+    /* padding: 0px; */
+    min-width: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus{
+    background-color: #2f3232;
+    color: #000;
+    color: rgba(255,255,255,.75);
+  }
+
+@media screen and (max-width: 600px) 
+ {
+    
+
+    #logo{
+        height: 190px;
+        width: 200px;
+        margin-left: 90px;
+        margin-right: 0px;
+        border: 1px solid black;
+        
+    }
+
+    .navbar.container-fluid{
+        display: block;
+        width: auto;
+    }
+
+    .collapse:not(.show) {
+        display: block;
+      }
+
+      .navbar{
+        position: static;
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 18px;
+        margin: 10px;
+        padding: 3px;  
+    }
+
+    .navbar-nav{
+        margin-right: 3px;
+    }
+    
+    .nav-link {
+        
+        font-size: 10px;
+        padding: 5px 12px;
+        
+    }
+    #dropimg{
+        height: 100px;
+        width: 190px;
+    }
+
+    #logo{
+        
+        margin-left: 5px;
+        margin-right: 50px;
+    }
+    #dropimg1{
+        height: 100px;
+        width: 140px;
+    }
+}
+
+
+
+
+/* ___________________________content ______________________________ */
+
+
+#slide{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+
+
+.card.mb-3.c1{
+    position: absolute;
+    top: 660px;
+    height: 520px;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#e1{
+    height: 500px;
+    width: 600px;
+}
+
+
+.card.mb-3.c2{
+    position: absolute;
+    top: 1200px;
+    height: 520px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#e2{
+    height: 500px;
+    width: 620px;
+}
+
+.title{
+    color: palevioletred;
+}
+
+
+@media screen and (max-width: 600px) 
+ {
+
+
+    #slide{
+        position: absolute;
+        top: 720px;
+        width: 100%;
+        height: 500px;
+        z-index: -1;
+    }
+
+    .card.mb-3.c1{
+        position: absolute;
+        top: 1200px;
+        
+    }
+
+.card.mb-3.c2{
+    position: absolute;
+    top: 2250px;
+
+}
+ }
+
+
+ /* ______________________-----products-------_____________________________ */
+
+
+
+ 
+ .card-group {
+    position: absolute;
+    top: 1760px;
+    z-index: -1;
+    left: 170px;
+
+}
+
+
+
+.card-img-top {
+    height: 350px;
+    width: 350px;
+}
+
+.card.ca1 {
+    margin: 30px;
+    margin-left: 58px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    left: 50px;
+}
+
+.card.ca2 {
+    margin: 30px;
+    margin-left: 58px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    left: 200px;
+}
+
+
+
+.ca1:hover #p1 {
+    content: url('lipglose33.jpeg');
+    height: 350px;
+    width: 330px;
+}
+
+
+.ca1:hover .card-text::after {
+    content: "PRIZE:$36  //  BUY NOW";
+    display: block;
+    border: 2px solid #000;
+    padding: 7px;
+    background-color: rgba(212, 152, 152, 0.75);
+}
+
+.ca1:hover {
+    border: 3px solid black;
+
+}
+
+
+.ca2:hover #p2 {
+    content: url('lipglose44.jpeg');
+    height: 300px;
+    width: 100px;
+
+}
+
+
+.ca2:hover .card-text::after {
+    content: "PRIZE:$53  //  BUY NOW";
+    display: block;
+    border: 2px solid #000;
+    padding: 7px;
+    background-color: rgba(212, 152, 152, 0.75);
+}
+
+.ca2:hover {
+    border: 3px solid black;
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+    .card-group {
+        position: absolute;
+        top: 1870px;
+        z-index: -1;
+        left: 10px;
+    }
+
+    .card.ca1 {
+        margin: 25px;
+        margin-left: 12px;
+        left: 18px;
+    }
+
+    .card.ca2 {
+        margin: 30px;
+        margin-left: 40px;
+        width: 350px;
+        height: 450px;
+        text-align: center;
+        left: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .card-group {
+        position: absolute;
+        top: 3460px;
+        z-index: -1;
+        left: 1px;
+    }
+
+    
+    .card.ca1 {
+        margin: 25px;
+        margin-left: 30px;
+        left: 7px;
+    }
+
+    .card.ca2 {
+        margin-left: 36px;
+        left: 5px;
+    }
+
+}
+
+
+
+
+/* ____________footer_________________  */
+
+
+.about1 {
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 2300px;
+    text-align: center;
+    color: #EAE4DD;
+    z-index: -1;
+}
+
+p {
+    color: #000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about1 {
+        position: absolute;
+        top: 4240px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .about1 {
+        position: absolute;
+        top: 2480px;
+    }
+}
+
+
+#font {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(24, 23, 23);
+    position: absolute;
+    top: 2430px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+#S1,
+#S2,
+#S3,
+#S4,
+#S5 {
+    margin: 35px;
+}
+
+
+.fa-brands.fa-linkedin-in,
+.fa-github,
+.fa-envelope {
+    font-size: 28px;
+}
+
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover {
+    border: 2px solid floralwhite;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .footer {
+        height: 470px;
+        position: absolute;
+        top: 2600px;
+    }
+
+    #S5 {
+        display: block;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+   
+    .about1 {
+        position: absolute;
+        top: 4480px;
+    }
+   
+    .footer {
+        height: 450px;
+        position: absolute;
+        top: 4600px;
+    }
+}
